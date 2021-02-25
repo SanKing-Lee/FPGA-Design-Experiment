@@ -1,0 +1,159 @@
+0 
+39
++acc+1
++cli+4
++define+COCOTB_SIM=1
++itf+/home/listen/Softwares/synopsys/vcs_2016.06/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc-4.8
+-Mcfl= -pipe -fPIC -O -I/home/listen/Softwares/synopsys/vcs_2016.06/include
+-Mcplusplus=g++-4.8
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic
+-Mobjects= /home/listen/Softwares/synopsys/vcs_2016.06/linux64/lib/libvirsim.so /home/listen/Softwares/synopsys/vcs_2016.06/linux64/lib/liberrorinf.so /home/listen/Softwares/synopsys/vcs_2016.06/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/home/listen/Softwares/synopsys/vcs_2016.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/listen/Softwares/synopsys/vcs_2016.06/include
+-P
+-Xcbug=0x1
+-debug=3
+-full64
+-gen_obj
+-load
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+-top
+/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/../src/ex1_dual_trig_sync.v
+/home/listen/Database/Workspace/FPGAExperiment/venv/lib/python3.8/site-packages/cocotb/libs/libcocotbvpi_vcs.so
+/home/listen/Softwares/synopsys/vcs_2016.06/linux64/bin/vcs1
+dual_trig_sync
+pli.tab
+106
+sysc_uni_pwd=/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/sim_build
+no_proxy=localhost,127.0.0.0/8,::1
+https_proxy=http://localhost:8889/
+http_proxy=http://localhost:8889/
+ftp_proxy=http://localhost:8889/
+all_proxy=socks://localhost:1089/
+_CE_M=
+_CE_CONDA=
+XMODIFIERS=@im=fcitx
+XDG_VTNR=2
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=2
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SEAT=seat0
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+VTE_VERSION=5202
+VMR_MODE_FLAG=64
+VIRTUAL_ENV=/home/listen/Database/Workspace/FPGAExperiment/venv
+VERDI_HOME=/home/listen/Softwares/synopsys/verdi_2016.06-1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/home/listen/Softwares/synopsys/vcs_2016.06
+VCS_DEPTH=0
+VCS_BIN_DIR=/home/listen/Softwares/synopsys/vcs_2016.06/bin
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=listen
+UNAME=/bin/uname
+TOPLEVEL=dual_trig_sync
+TOOL_HOME=/home/listen/Softwares/synopsys/vcs_2016.06/linux64
+TEXTDOMAINDIR=/usr/share/locale/
+TEXTDOMAIN=im-config
+TERMINAL_EMULATOR=JetBrains-JediTerm
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=4119
+SNPS_VCS_INTERNAL_LINKER_NEEDS_NO_AS_NEEDED=1
+SIM_BUILD=sim_build
+SIM=vcs
+SESSION_MANAGER=local/Listen414Workstation:@/tmp/.ICE-unix/4033,unix/Listen414Workstation:/tmp/.ICE-unix/4033
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=fcitx
+QT_ACCESSIBILITY=1
+QT4_IM_MODULE=fcitx
+PYTHONHOME=/home/listen/Softwares/anaconda3
+OVA_UUM=0
+OS=Linux
+NO_PROXY=localhost,127.0.0.0/8,::1
+MFLAGS=-w
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+MANAGERPID=3993
+MAKE_TERMOUT=/dev/pts/9
+MAKE_TERMERR=/dev/pts/9
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=2
+MAKEFLAGS=w -- SIM=vcs
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+JOURNAL_STREAM=9:62669
+INVOCATION_ID=b6859f49be5649d69260c3ce19f98999
+IM_CONFIG_PHASE=2
+HTTP_PROXY=http://localhost:8889/
+HTTPS_PROXY=http://localhost:8889/
+GTK_MODULES=
+GTK_IM_MODULE=fcitx
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GNOME_TERMINAL_SERVICE=:1.73
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/6aeb227b_c94e_4e8b_8db6_7ffdaf5e7965
+GNOME_SHELL_SESSION_MODE=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDMSESSION=ubuntu
+GDK_BACKEND=x11
+FTP_PROXY=http://localhost:8889/
+DESKTOP_STARTUP_ID=PyCharm-restart_TIME1914619
+DESKTOP_SESSION=ubuntu
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=ccf9583350b991bf4e56becb60374bd1
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=ccf9583350b991bf4e56becb60374bd1
+CPATH=/usr/include/x86_64-linux-gnu
+CONDA_SHLVL=1
+CONDA_PYTHON_EXE=/home/listen/Softwares/anaconda3/bin/python
+CONDA_PROMPT_MODIFIER=(base) 
+CONDA_PREFIX=/home/listen/Softwares/anaconda3
+CONDA_EXE=/home/listen/Softwares/anaconda3/bin/conda
+CONDA_DEFAULT_ENV=base
+COLORTERM=truecolor
+CLUTTER_IM_MODULE=xim
+ALL_PROXY=socks://localhost:1089/
+0
+3
+1614257734 /home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/../src/ex1_dual_trig_sync.v
+1464145466 /home/listen/Softwares/synopsys/vcs_2016.06/linux64/lib/vcsdp.tab
+1614257220 pli.tab
+4
+0 
+1464147802 /home/listen/Softwares/synopsys/vcs_2016.06/linux64/lib/libvirsim.so
+1464147272 /home/listen/Softwares/synopsys/vcs_2016.06/linux64/lib/liberrorinf.so
+1464147248 /home/listen/Softwares/synopsys/vcs_2016.06/linux64/lib/libsnpsmalloc.so
+1614257742 simv.daidir

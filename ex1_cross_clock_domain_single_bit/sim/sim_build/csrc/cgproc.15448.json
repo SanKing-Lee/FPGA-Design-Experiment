@@ -1,0 +1,43 @@
+{
+    "Modules": {
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        },
+        "...MASTER...": {},
+        "dual_trig_sync": {
+            "Compiled": "Yes",
+            "Compiled Times": 3
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "CompUnits": {
+        "VI9mg_d": {
+            "mod": "dual_trig_sync",
+            "out": "VI9mg_d.o",
+            "archive": "archive.2/_15448_archive_1.a",
+            "mode": 4,
+            "bytes": 11335,
+            "checksum": 0
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.2/_15448_archive_1.a",
+            "objects": [
+                [
+                    "VI9mg_d.o",
+                    11335
+                ]
+            ],
+            "size": 11335
+        }
+    ]
+}
