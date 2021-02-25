@@ -1,0 +1,55 @@
+{
+    "CompUnits": {
+        "VI9mg_d": {
+            "out": "VI9mg_d.o",
+            "mod": "dual_trig_sync",
+            "checksum": 0,
+            "mode": 4,
+            "bytes": 11351,
+            "archive": "archive.0/_31203_archive_1.a"
+        },
+        "reYIK_d": {
+            "out": "reYIK_d.o",
+            "mod": "std",
+            "checksum": 0,
+            "mode": 4,
+            "bytes": 39895,
+            "archive": "archive.0/_31203_archive_1.a"
+        },
+        "amcQw_d": {
+            "out": "objs/amcQw_d.o",
+            "mod": "...MASTER...",
+            "checksum": 0,
+            "mode": 4,
+            "bytes": 7909
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "dual_trig_sync": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_31203_archive_1.a",
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    39895
+                ],
+                [
+                    "VI9mg_d.o",
+                    11351
+                ]
+            ],
+            "size": 51246
+        }
+    ]
+}

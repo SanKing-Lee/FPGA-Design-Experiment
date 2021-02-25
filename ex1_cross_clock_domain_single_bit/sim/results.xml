@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1614257742" />
-    <testcase name="test_dual_trig_sync" classname="test_dual_trig_sync" time="0.004868268966674805" sim_time_ns="200.001" ratio_time="41082.56987629169" />
-  </testsuite>
-</testsuites>

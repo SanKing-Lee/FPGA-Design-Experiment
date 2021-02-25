@@ -1,0 +1,96 @@
+{
+    "PEModules": [],
+    "MlibObjs": {},
+    "stat": {
+        "Frontend(%)": 92.518176843092803,
+        "ru_self_end": {
+            "ru_majflt": 2,
+            "ru_utime_sec": 0.063954999999999998,
+            "ru_minflt": 7840,
+            "ru_stime_sec": 0.011991,
+            "ru_nvcsw": 25,
+            "ru_maxrss_kb": 101564,
+            "ru_nivcsw": 5
+        },
+        "ru_self_cgstart": {
+            "ru_majflt": 2,
+            "ru_utime_sec": 0.05917,
+            "ru_minflt": 6067,
+            "ru_stime_sec": 0.0078890000000000002,
+            "ru_nvcsw": 25,
+            "ru_maxrss_kb": 92380,
+            "ru_nivcsw": 5
+        },
+        "ru_childs_cgstart": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nivcsw": 0
+        },
+        "nQuads": 349,
+        "nMops": 683,
+        "totalObjSize": 150864,
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_stime_sec": 0.0,
+            "ru_nvcsw": 0,
+            "ru_maxrss_kb": 0,
+            "ru_nivcsw": 0
+        },
+        "outputSizePerQuad": 432.0,
+        "CodeGen(%)": 7.4818231569071969
+    },
+    "CompileProcesses": [
+        "cgproc.31203.json"
+    ],
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "dual_trig_sync": [
+            "dual_trig_sync",
+            "VI9mg",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileUdps": {},
+    "CompileStatus": "Successful",
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 91709
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "dual_trig_sync",
+        "dual_trig_sync"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "cwd": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_dual_trig_sync/sim_build",
+        "csrc": "csrc",
+        "csrc_abs": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_dual_trig_sync/sim_build/csrc",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc",
+        "daidir_abs": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_dual_trig_sync/sim_build/simv.daidir",
+        "archive_dir": "archive.0"
+    }
+}
