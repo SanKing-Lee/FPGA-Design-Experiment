@@ -1,0 +1,43 @@
+{
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled Times": 2,
+            "Compiled": "Yes"
+        },
+        "edge_detect_sync": {
+            "Compiled Times": 2,
+            "Compiled": "Yes"
+        }
+    },
+    "CompUnits": {
+        "KeCMv_d": {
+            "checksum": 0,
+            "mod": "edge_detect_sync",
+            "bytes": 11793,
+            "out": "KeCMv_d.o",
+            "mode": 4,
+            "archive": "archive.1/_19298_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_19298_archive_1.a",
+            "objects": [
+                [
+                    "KeCMv_d.o",
+                    11793
+                ]
+            ],
+            "size": 11793
+        }
+    ]
+}

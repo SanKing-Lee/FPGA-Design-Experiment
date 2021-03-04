@@ -1,0 +1,35 @@
+{
+    "reusePaths": {
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "Modules": {
+        "pulse_sync": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 11
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "checksum": 0,
+            "out": "objs/amcQw_d.o",
+            "bytes": 7909,
+            "mode": 4
+        },
+        "QpCte_d": {
+            "mod": "pulse_sync",
+            "checksum": 0,
+            "out": "objs/QpCte_d.o",
+            "bytes": 12500,
+            "mode": 4
+        }
+    },
+    "ObjArchives": []
+}

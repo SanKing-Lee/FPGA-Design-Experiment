@@ -1,0 +1,124 @@
+{
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "edge_detect_sync",
+        "edge_detect_sync"
+    ],
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "edge_detect_sync": {
+            "KeCMv_d": {
+                "out": "KeCMv_d.o",
+                "bytes": 11717,
+                "checksum": 0,
+                "mod": "edge_detect_sync",
+                "mode": 4,
+                "archive": "archive.1/_19298_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "out": "reYIK_d.o",
+                "bytes": 39895,
+                "checksum": 0,
+                "mod": "std",
+                "mode": 4,
+                "archive": "archive.1/_prev_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "out": "objs/amcQw_d.o",
+                "bytes": 7917,
+                "checksum": 0,
+                "mod": "...MASTER...",
+                "mode": 4
+            }
+        }
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "edge_detect_sync": [
+            "edge_detect_sync",
+            "KeCMv",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "SIMBData": {
+        "bytes": 90913,
+        "out": "amcQwB.o"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileStrategy": "fullobj",
+    "Misc": {
+        "cwd": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_edge_detect_sync/sim_build",
+        "csrc": "csrc",
+        "csrc_abs": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_edge_detect_sync/sim_build/csrc",
+        "archive_dir": "archive.1",
+        "daidir_abs": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_edge_detect_sync/sim_build/simv.daidir",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "stat": {
+        "nMops": 726,
+        "ru_self_cgstart": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.038639,
+            "ru_stime_sec": 0.011591000000000001,
+            "ru_maxrss_kb": 91572,
+            "ru_minflt": 5851,
+            "ru_nivcsw": 5,
+            "ru_nvcsw": 21
+        },
+        "ru_childs_cgstart": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 0,
+            "ru_nivcsw": 0,
+            "ru_nvcsw": 0
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0022720000000000001,
+            "ru_maxrss_kb": 19444,
+            "ru_minflt": 222,
+            "ru_nivcsw": 1,
+            "ru_nvcsw": 1
+        },
+        "nQuads": 363,
+        "totalObjSize": 102706,
+        "ru_self_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.044660999999999999,
+            "ru_stime_sec": 0.01218,
+            "ru_maxrss_kb": 98072,
+            "ru_minflt": 7567,
+            "ru_nivcsw": 5,
+            "ru_nvcsw": 22
+        },
+        "outputSizePerQuad": 282.0,
+        "Frontend(%)": 86.516199816394618,
+        "CodeGen(%)": 13.483800183605382
+    },
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.19298.json"
+    ],
+    "CompileStatus": "Successful"
+}

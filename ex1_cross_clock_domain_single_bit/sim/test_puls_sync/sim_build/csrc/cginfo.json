@@ -1,0 +1,114 @@
+{
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "pulse_sync",
+        "pulse_sync"
+    ],
+    "MlibObjs": {},
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 92884,
+            "ru_utime_sec": 0.039301999999999997,
+            "ru_stime_sec": 0.019060000000000001,
+            "ru_minflt": 6081,
+            "ru_nvcsw": 20,
+            "ru_nivcsw": 7
+        },
+        "Frontend(%)": 83.928418894678387,
+        "ru_childs_cgstart": {
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "totalObjSize": 140063206066850,
+        "nQuads": 411,
+        "nMops": 805,
+        "ru_self_end": {
+            "ru_majflt": 2,
+            "ru_maxrss_kb": 101060,
+            "ru_utime_sec": 0.046828000000000002,
+            "ru_stime_sec": 0.023414000000000001,
+            "ru_minflt": 8082,
+            "ru_nvcsw": 23,
+            "ru_nivcsw": 7
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 20340,
+            "ru_utime_sec": 0.0022420000000000001,
+            "ru_stime_sec": 0.0,
+            "ru_minflt": 226,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "outputSizePerQuad": 340786389457.0,
+        "CodeGen(%)": 16.071581105321613
+    },
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "bytes": 39804,
+                "mod": "std",
+                "mode": 4,
+                "out": "objs/reYIK_d.o",
+                "checksum": 0
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7909,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "out": "objs/amcQw_d.o",
+                "checksum": 0
+            }
+        }
+    },
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "pulse_sync": [
+            "pulse_sync",
+            "QpCte",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "LVLData": [
+        "SIM"
+    ],
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 91129
+    },
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.26069.json"
+    ],
+    "Misc": {
+        "csrc_abs": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_puls_sync/sim_build/csrc",
+        "cwd": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_puls_sync/sim_build",
+        "archive_dir": "archive.10",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_puls_sync/sim_build/simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "CompileStatus": "Successful"
+}

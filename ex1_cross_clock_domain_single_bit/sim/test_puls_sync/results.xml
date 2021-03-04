@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1614606743" />
+    <testcase name="test_pulse_sync" classname="test_pulse_sync" time="0.005293607711791992" sim_time_ns="72.001" ratio_time="13601.499000315274" />
+  </testsuite>
+</testsuites>

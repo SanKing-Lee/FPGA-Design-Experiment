@@ -1,0 +1,96 @@
+{
+    "stat": {
+        "ru_self_end": {
+            "ru_majflt": 1,
+            "ru_utime_sec": 0.047842000000000003,
+            "ru_stime_sec": 0.015946999999999999,
+            "ru_maxrss_kb": 101300,
+            "ru_minflt": 7628,
+            "ru_nvcsw": 22,
+            "ru_nivcsw": 7
+        },
+        "ru_self_cgstart": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.042994999999999998,
+            "ru_stime_sec": 0.0085990000000000007,
+            "ru_maxrss_kb": 91580,
+            "ru_minflt": 5836,
+            "ru_nvcsw": 21,
+            "ru_nivcsw": 5
+        },
+        "nQuads": 362,
+        "ru_childs_cgstart": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "ru_childs_end": {
+            "ru_majflt": 0,
+            "ru_utime_sec": 0.0,
+            "ru_stime_sec": 0.0,
+            "ru_maxrss_kb": 0,
+            "ru_minflt": 0,
+            "ru_nvcsw": 0,
+            "ru_nivcsw": 0
+        },
+        "nMops": 724,
+        "totalObjSize": 151238,
+        "outputSizePerQuad": 417.0,
+        "Frontend(%)": 89.868734584674556,
+        "CodeGen(%)": 10.131265415325455
+    },
+    "MlibObjs": {},
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "PrevCompiledModules": {},
+    "CompileStrategy": "fullobj",
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "edge_detect_sync": [
+            "edge_detect_sync",
+            "KeCMv",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStatus": "Successful",
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 91709
+    },
+    "Misc": {
+        "default_output_dir": "csrc",
+        "cwd": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_edge_detect_sync/sim_build",
+        "csrc": "csrc",
+        "csrc_abs": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_edge_detect_sync/sim_build/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/home/listen/Database/Workspace/FPGAExperiment/ex1_cross_clock_domain_single_bit/sim/test_edge_detect_sync/sim_build/simv.daidir",
+        "archive_dir": "archive.0"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "edge_detect_sync",
+        "edge_detect_sync"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileProcesses": [
+        "cgproc.16301.json"
+    ]
+}
