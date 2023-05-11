@@ -11,8 +11,8 @@ module sdp_ram #(
   parameter INIT_FILE = "",                        // Specify name/location of RAM initialization file if using one (leave blank if not)
   parameter INIT_DATA = 0
 ) (
-  input [clogb2(RAM_DEPTH-1)-1:0] addra, // Write address bus, width determined from RAM_DEPTH
-  input [clogb2(RAM_DEPTH-1)-1:0] addrb, // Read address bus, width determined from RAM_DEPTH
+  input [`FIFO_ADDR_WIDTH-1:0] addra, // Write address bus, width determined from RAM_DEPTH
+  input [`FIFO_ADDR_WIDTH-1:0] addrb, // Read address bus, width determined from RAM_DEPTH
   input [RAM_WIDTH-1:0] dina,          // RAM input data
   input clka,                          // Clock
   // input rst,

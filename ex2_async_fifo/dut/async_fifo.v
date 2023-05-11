@@ -8,7 +8,7 @@ module AsyncFIFO (
     output wire w_full,
 
     input wire r_clk,
-    input wire r_rsetn,
+    input wire r_restn,
     input wire r_inc,
     output wire [`FIFO_WIDTH-1:0] r_data,
     output wire r_empty
